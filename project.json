@@ -101,7 +101,7 @@
   },
 
   "scripts": {    
-    "postcompile": ["jekyll build", "gulp" ],
+    "postcompile": ["jekyll build", "npm install", "gulp" ],
     "prepublish": [ "npm install", "bower install", "bundle install", "jekyll build", "gulp clean", "gulp min" ],
     "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
   },
