@@ -238,3 +238,6 @@ wwwroot
 
 # Ruby
 Gemfile.lock
+
+#VS Code
+.vscode
