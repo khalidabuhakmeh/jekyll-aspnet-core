@@ -1,0 +1,7 @@
+{
+  "name": "webapplication",
+  "private": true,
+  "dependencies": {    
+    "jquery": "latest"   
+  }
+}
